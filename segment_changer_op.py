@@ -49,6 +49,3 @@ class MESH_OT_segment_changer(bpy.types.Operator):
 		context.active_object.scale[2] = scale_z
 
 		return {'FINISHED'}
-
-# bpy.ops.mesh.primitive_cylinder_add(vertices=32, align='WORLD', location=(0, 0, 0), rotation=(0, 0, 0), scale=(1, 1, 1))
-
